@@ -6,7 +6,7 @@ Estas variables solo alamcenan numero enteros
     short       16        - 32,768 a 32,768
     byte        8         - 128 a 128
 
-Estas variable pueden almacenar numeros decimales
+Estas variable pueden almacenar numeros decimales (punto flotante)
     Nombre     Tamaño     Rango
     doble      64         4.9e-324 a 1.8e+308
     float      32         1.4e-045 a 3.4e+038
@@ -21,8 +21,6 @@ Estas variables son buleanas
  */
 
 package Introduccion;
-
-import java.sql.SQLOutput;
 
 public class VariablesPrimitivas {
     public static void main(String[] args) {
@@ -41,7 +39,7 @@ public class VariablesPrimitivas {
         System.out.println("El valor del numero byte es: " + valorD);
 
         //Variables decimales
-        float ValorD1 = 3.1416F; // Siempre agregar F al final del valor
+        float ValorD1 = 3.1416F; // Siempre agregar F al final del valor0o
         System.out.println("El valor del float decimal es: " + ValorD1);
 
         double ValorD2 = -3.1415587;

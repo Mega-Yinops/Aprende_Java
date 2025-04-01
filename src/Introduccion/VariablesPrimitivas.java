@@ -54,5 +54,9 @@ public class VariablesPrimitivas {
         //Variables de tipo boleana
         boolean decision = false;
         System.out.println("La decision es: " + decision);
+
+        //Variable de tipo flexible
+        var numero3 = 10; // Se infiere el tipo de dato
+        System.out.println("El valor de la variable flexible es: " + numero3);
     }
 }

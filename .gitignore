@@ -28,4 +28,5 @@ out/
 target/
 build/
 bin/
+.idea/
 # Ignorar archivos de configuración de IDEs 

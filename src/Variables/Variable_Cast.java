@@ -10,7 +10,7 @@ public class Variable_Cast {
         double division, division1;
 
         division = (double)y / (double)x;
-        division1 = y / x; // Comenta esta línea y
+        division1 = y / x;
 
         // observa la diferencia.
         System.out.println("El resultado de la división es " + division);
